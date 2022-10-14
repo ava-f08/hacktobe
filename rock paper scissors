@@ -15,24 +15,33 @@ if press == num:
     user_choice = input("SHOOT: ")
     if user_choice == "r":
         if bot_num == 1:
+            print("I chose rock, too!")
             print("TIED")
         if bot_num == 2:
+            print("Hahaha, I chose paper!")
             print("I WON, YOU LOST!")
         if bot_num == 3:
+            print("Oh nooo! I chose scissors!")
             print("I LOST, YOU WON!")
     if user_choice == "p":
         if bot_num == 1:
+            print("Oh nooo! I chose rock!")
             print("I LOST, YOU WON!")
         if bot_num == 2:
+            print("I chose paper, too!")
             print("TIED")
         if bot_num == 3:
+            print("Hahaha, I chose scissors!")
             print("I WON, YOU LOST!")
     if user_choice == "s":
         if bot_num == 1:
+            print("Hahaha, I chose rock!")
             print("I WON, YOU LOST!")
         if bot_num == 2:
+            print("Oh nooo! I chose paper!")
             print("I LOST, YOU WON!")
         if bot_num == 3:
+            print("I chose scissors, too!")
             print("TIED")
 else:
     print("Okay goodbye")
