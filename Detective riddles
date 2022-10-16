@@ -1,0 +1,23 @@
+import time,os,sys
+
+case_num = 
+
+def typingPrint(text):
+  for char in text:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.05)
+  
+def typingInput(text):
+  for char in text:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.05)
+  value = input()  
+  return value  
+
+    
+typingPrint("Hi Detective")
+time.sleep(1)
+typingPrint("You have 3 new ")
+time.sleep(1)
