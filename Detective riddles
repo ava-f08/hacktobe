@@ -20,8 +20,4 @@ def typingInput(text):
   value = input()  
   return value  
 
-    
-typingPrint("Hi Detective")
-time.sleep(1)
-typingPrint("You have 2 cases")
-time.sleep(1)
+
