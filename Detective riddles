@@ -1,6 +1,10 @@
 import time,os,sys
 
-case_num = 
+cases = [
+  {"name": "School Mystery", 
+  "case number": "1"},
+  {"name": "Science Lab",
+  "case number": "2"}]
 
 def typingPrint(text):
   for char in text:
@@ -19,5 +23,5 @@ def typingInput(text):
     
 typingPrint("Hi Detective")
 time.sleep(1)
-typingPrint("You have 3 new ")
+typingPrint("You have 2 cases")
 time.sleep(1)
