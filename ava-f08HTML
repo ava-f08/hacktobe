@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hacktoberfest</title>
+
+<style>
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+  }
+
+  p {
+    font-family: cursive;
+    font-size: 20px;
+  }
+</style>
+</head>
+
+<body>
+
+<h1>Hacktoberfest 2022</h1>
+<p>My name is Ava. This is my first time participating in Hacktoberfest.</p>
+
+</body>
+</html>
+
